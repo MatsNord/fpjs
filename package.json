@@ -1,0 +1,39 @@
+{
+  "name": "fpjs",
+  "version": "1.0.0",
+  "description": "Functional Programming in JavaScript studies",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.js --require babel-polyfill --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatsNord/fpjs.git"
+  },
+  "author": "Mats Nord",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatsNord/fpjs/issues"
+  },
+  "homepage": "https://github.com/MatsNord/fpjs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "babelify": "^7.3.0",
+    "chai": "^3.5.0",
+    "faucet": "0.0.1",
+    "isparta": "^4.0.0",
+    "istanbul": "^0.4.5",
+    "jasmine-node": "^1.14.5",
+    "minimatch": "^3.0.3",
+    "mocha": "^3.2.0",
+    "should": "^11.2.1"
+  },
+  "dependencies": {
+    "hash-it": "^2.1.2"
+  }
+}
